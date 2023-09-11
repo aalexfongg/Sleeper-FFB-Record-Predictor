@@ -1,0 +1,126 @@
+.App {
+  text-align: center;
+}
+
+h1, h2 {
+  color: #e4e4e7;
+}
+
+
+body {
+  background-color: #102131; /* Replace #f0f0f0 with your desired background color */
+  margin: 0; /* Remove default body margin for a full-width background */
+  padding: 0; /* Remove default body padding */
+}
+
+
+.matchup-container {
+  display: 100%;
+  flex-wrap: wrap;
+}
+
+.matchup {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.team {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  margin-right: 10px;
+  margin-bottom: 10px;
+  color: #e4e4e7
+}
+
+.team p {
+  font-size: 16px;
+}
+
+.team ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.team ul li {
+  margin-bottom: 5px;
+}
+
+.season-records-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #e4e4e7
+}
+
+.season-records-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.season-records-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  color: #e4e4e7
+}
+
+.season-records-table th {
+  background-color: #f2f2f2;
+}
+
+.team-name {
+  font-weight: bold;
+  color: #27272a;
+}
+
+.wins,
+.losses {
+  text-align: center;
+  color: #27272a;
+}
+
+.styled-button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px; /* Adjust padding to increase button size */
+  border: none;
+  background-color: #00ceb8; /* Button background color */
+  color: #022047; /* Button text color */
+  border-radius: 20px; /* Rounded edges */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+
+  /* Additional styles, like font size or box shadow, can be added here */
+}
+
+/* Add a hover effect to change background color on hover */
+.styled-button:hover {
+  background-color: #03af9e; /* New background color on hover */
+}
+
+.styled-league-input {
+  padding: 10px; /* Adjust padding to increase input size */
+  border: none;
+  border-radius: 20px; /* Rounded edges */
+  outline: none; /* Remove the default input outline */
+  width: 250px; /* Set the desired width */
+  height: 10px;
+
+  /* Additional styles, like font size or box shadow, can be added here */
+}
+
+.styled-week-input {
+  padding: 10px; /* Adjust padding to increase input size */
+  border: none;
+  border-radius: 20px; /* Rounded edges */
+  outline: none; /* Remove the default input outline */
+  width: 35px; /* Set the desired width */
+  height: 10px;
+  /* Additional styles, like font size or box shadow, can be added here */
+}
+
+
+
+
